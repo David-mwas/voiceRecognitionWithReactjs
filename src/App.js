@@ -44,7 +44,7 @@ function App() {
           />
 
           <input
-            onClick={() => speak({ text: value })}
+            onClick={() => speak({ text: value || transcript})}
             type="submit"
             value="convert"
             className="bg-red-500 rounded-lg w-[40%] h-[30px] p-[5px] mt-[20px] uppercase font-bold text-white/75"
