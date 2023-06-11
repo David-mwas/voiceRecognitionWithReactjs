@@ -36,14 +36,14 @@ function App() {
         <div className="flex w-[100%] items-center flex-col justify-center">
           <input
             onChange={(event) => setValue(event.target.value)}
-            value={...value || transcript}
+            value={value || transcript}
             type="text"
             placeholder="enter text to convert"
             className="w-[100%] h-[40px] outline-none border-[2px] border-gray-500 bg-black p-[5px] rounded-[10px]"
           />
 
           <input
-            onClick={() => speak({ text: value || transcript})}
+            onClick={() => speak({ text: value})}
             type="submit"
             value="convert"
             className="bg-red-500 rounded-lg w-[40%] h-[30px] p-[5px] mt-[20px] uppercase font-bold text-white/75"
