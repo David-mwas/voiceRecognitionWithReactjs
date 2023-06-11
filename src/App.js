@@ -36,7 +36,7 @@ function App() {
         <div className="flex w-[100%] items-center flex-col justify-center">
           <input
             onChange={(event) => setValue(event.target.value)}
-            value={value || transcript}
+            value={...value || transcript}
             type="text"
             placeholder="enter text to convert"
             className="w-[100%] h-[40px] outline-none border-[2px] border-gray-500 bg-black p-[5px] rounded-[10px]"
