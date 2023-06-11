@@ -32,7 +32,7 @@ function App() {
       </h1>
 
       <div className="flex flex-col justify-between items-start py-[15px] px-[20px] w-[100%] h-[300px] mb-[20px] shadow-shadow shadow-white-400 rounded-[10px] max-w-[600px]">
-        <p className="text-white">{transcript}</p>
+//         <p className="text-white">{transcript}</p>
 
         <div className="flex w-[100%] items-center flex-col justify-center">
           <input
